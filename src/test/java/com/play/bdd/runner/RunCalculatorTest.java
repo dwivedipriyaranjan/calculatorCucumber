@@ -1,0 +1,14 @@
+package com.play.bdd.runner;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+        format = { "pretty", "html:target/cucumber" },
+        glue = "com.play.bdd.steps",
+        features = "classpath:cucumber/calculator.feature"
+)
+public class RunCalculatorTest {
+}
