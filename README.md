@@ -1,8 +1,7 @@
 cucumber-jvm-maven
 ==================
 
-Cucumber JVM with Maven application.
-
-See my blog for details:
-
-http://blog.czeczotka.com/2014/07/22/cucumber-jvm-with-maven-in-minutes/
+This cucumber script is to teach you how to perform
+* subtraction
+* Creating a folder in main folder.
+* Define the subration action to be performed.
